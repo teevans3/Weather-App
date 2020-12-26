@@ -1,0 +1,74 @@
+.WeatherContainer {
+  height: 300px;
+}
+
+.ContainerLeft {
+  float: left;
+  width: 50%;
+}
+
+.ContainerRight {
+  float: left;
+  width: 45%;
+}
+
+.CityName {
+  font-size: 42px;
+  height: 60px;
+}
+
+.Temp {
+  font-size: 116px;
+  height: 220px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.Temp sup {
+  font-size: 46px;
+}
+
+
+.Image {
+  height: 190px;
+}
+
+.Image img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .WeatherContainer {
+    height: 500px;
+  }
+
+  .ContainerLeft {
+    float: none;
+    width: 100%;
+  }
+
+  .ContainerRight {
+    float: none;
+    width: 100%;
+  }
+
+  .CityName {
+    font-size: 28px;
+    height: 30px;
+  }
+
+  .Temp {
+    font-size: 84px;
+    height: 120px;
+  }
+
+  .Temp sup {
+    font-size: 36px;
+  }
+
+  .Image {
+    height: 100%;
+  }
+
+}
